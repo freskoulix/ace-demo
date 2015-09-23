@@ -1,0 +1,30 @@
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Ace with multiple sessions</title>
+
+<link rel="stylesheet" href="assets/main.css">
+</head>
+<body>
+<!-- editor container -->
+<div id="editor-container">
+  <div id="sidebar">
+    <input id="create-file-input" type="text" name="input" placeholder="New file">
+    <a id="create-file-button" href="javascript:void(0);">&plus;</a>
+    <ul id="file-list"></ul>
+  </div>
+  <div id="editor"></div>
+</div>
+
+<!-- libraries -->
+<script src="//code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/ace/1.2.2/ace.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/ace/1.2.2/theme-github.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/ace/1.2.2/mode-javascript.js"></script>
+
+<!-- page scripts -->
+<script src="assets/editorUI.js"></script>
+<script src="assets/fileManager.js"></script>
+<script src="assets/editor.js"></script>
+</body>
+</html>
