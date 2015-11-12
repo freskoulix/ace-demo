@@ -1,0 +1,23 @@
+{
+  "name": "casperjs-tests",
+  "version": "1.0.0",
+  "description": "casperjs tests for ace editor demo",
+  "main": "index.js",
+  "scripts": {
+    "test": "./test.sh"
+  },
+  "dependencies": {
+      "casperjs": "1.1.0-beta3",
+      "slimerjs": "0.9.6"
+    },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/tsiknas/ace-demo.git"
+  },
+  "author": "tsiknas",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tsiknas/ace-demo/issues"
+  },
+  "homepage": "https://github.com/tsiknas/ace-demo#readme"
+}

@@ -1,0 +1,7 @@
+{
+    "baseUrl": "http://localhost:8000",
+    "viewport": {
+        "width": 800,
+        "height": 600
+    }
+}
